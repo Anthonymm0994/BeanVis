@@ -1,0 +1,35 @@
+# Ignore Visual Studio temporary files, build results, and
+# folder-based project configurations
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# Mono auto generated files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder-based project configuration
+.vs/
+
+# Ignore build results
+[Bb]in/
+[Oo]bj/
+
+# Other
+*.ide/
+
+# Ignore any other file extensions or directories you want to exclude
