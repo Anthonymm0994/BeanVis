@@ -125,5 +125,11 @@ namespace BeanVis.Views
             SummaryStatsForm newSummaryStatsForm = new SummaryStatsForm();
             newSummaryStatsForm.Show();
         }
+
+        private void DistributionAnalysis_Button_Click(object sender, EventArgs e)
+        {
+            DistributionAnalysisForm distributionAnalysisForm = new DistributionAnalysisForm();
+            distributionAnalysisForm.Show();
+        }
     }
 }

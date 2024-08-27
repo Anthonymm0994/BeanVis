@@ -194,6 +194,7 @@
             DistributionAnalysis_Button.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             DistributionAnalysis_Button.UseAccentColor = false;
             DistributionAnalysis_Button.UseVisualStyleBackColor = true;
+            DistributionAnalysis_Button.Click += DistributionAnalysis_Button_Click;
             // 
             // SummaryStats_Button
             // 

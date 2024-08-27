@@ -34,6 +34,8 @@ namespace BeanVis.Views
                 TextShade.WHITE
             );
 
+            UpdateDatasetComboBox();
+
             // Subscribe to the event to update the ComboBox when datasets are added
             DataStorageModel.Instance.DatasetsUpdated += UpdateDatasetComboBox;
         }

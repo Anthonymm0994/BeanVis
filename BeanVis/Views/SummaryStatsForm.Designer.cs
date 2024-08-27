@@ -40,9 +40,9 @@
             materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
-            materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            FileSize_Label = new MaterialSkin.Controls.MaterialLabel();
             materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            FileName_Label = new MaterialSkin.Controls.MaterialLabel();
             Data_ComboBox = new MaterialSkin.Controls.MaterialComboBox();
             tableLayoutPanel3 = new TableLayoutPanel();
             materialCard3 = new MaterialSkin.Controls.MaterialCard();
@@ -127,9 +127,9 @@
             tableLayoutPanel4.Controls.Add(materialLabel6, 1, 2);
             tableLayoutPanel4.Controls.Add(materialLabel5, 0, 2);
             tableLayoutPanel4.Controls.Add(materialLabel4, 1, 1);
-            tableLayoutPanel4.Controls.Add(materialLabel3, 0, 1);
+            tableLayoutPanel4.Controls.Add(FileSize_Label, 0, 1);
             tableLayoutPanel4.Controls.Add(materialLabel2, 1, 0);
-            tableLayoutPanel4.Controls.Add(materialLabel1, 0, 0);
+            tableLayoutPanel4.Controls.Add(FileName_Label, 0, 0);
             tableLayoutPanel4.Dock = DockStyle.Fill;
             tableLayoutPanel4.Location = new Point(14, 14);
             tableLayoutPanel4.Name = "tableLayoutPanel4";
@@ -240,19 +240,19 @@
             materialLabel4.Text = "materialLabel4";
             materialLabel4.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // materialLabel3
+            // FileSize_Label
             // 
-            materialLabel3.AutoSize = true;
-            materialLabel3.Depth = 0;
-            materialLabel3.Dock = DockStyle.Fill;
-            materialLabel3.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
-            materialLabel3.Location = new Point(3, 34);
-            materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            materialLabel3.Name = "materialLabel3";
-            materialLabel3.Size = new Size(164, 34);
-            materialLabel3.TabIndex = 2;
-            materialLabel3.Text = "materialLabel3";
-            materialLabel3.TextAlign = ContentAlignment.MiddleCenter;
+            FileSize_Label.AutoSize = true;
+            FileSize_Label.Depth = 0;
+            FileSize_Label.Dock = DockStyle.Fill;
+            FileSize_Label.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
+            FileSize_Label.Location = new Point(3, 34);
+            FileSize_Label.MouseState = MaterialSkin.MouseState.HOVER;
+            FileSize_Label.Name = "FileSize_Label";
+            FileSize_Label.Size = new Size(164, 34);
+            FileSize_Label.TabIndex = 2;
+            FileSize_Label.Text = "File Size";
+            FileSize_Label.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // materialLabel2
             // 
@@ -268,19 +268,19 @@
             materialLabel2.Text = "materialLabel2";
             materialLabel2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // materialLabel1
+            // FileName_Label
             // 
-            materialLabel1.AutoSize = true;
-            materialLabel1.Depth = 0;
-            materialLabel1.Dock = DockStyle.Fill;
-            materialLabel1.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
-            materialLabel1.Location = new Point(3, 0);
-            materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            materialLabel1.Name = "materialLabel1";
-            materialLabel1.Size = new Size(164, 34);
-            materialLabel1.TabIndex = 0;
-            materialLabel1.Text = "materialLabel1";
-            materialLabel1.TextAlign = ContentAlignment.MiddleCenter;
+            FileName_Label.AutoSize = true;
+            FileName_Label.Depth = 0;
+            FileName_Label.Dock = DockStyle.Fill;
+            FileName_Label.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
+            FileName_Label.Location = new Point(3, 0);
+            FileName_Label.MouseState = MaterialSkin.MouseState.HOVER;
+            FileName_Label.Name = "FileName_Label";
+            FileName_Label.Size = new Size(164, 34);
+            FileName_Label.TabIndex = 0;
+            FileName_Label.Text = "File Name";
+            FileName_Label.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Data_ComboBox
             // 
@@ -383,9 +383,9 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel6;
         private MaterialSkin.Controls.MaterialLabel materialLabel5;
         private MaterialSkin.Controls.MaterialLabel materialLabel4;
-        private MaterialSkin.Controls.MaterialLabel materialLabel3;
+        private MaterialSkin.Controls.MaterialLabel FileSize_Label;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private MaterialSkin.Controls.MaterialLabel FileName_Label;
         private MaterialSkin.Controls.MaterialCard materialCard2;
         private MaterialSkin.Controls.MaterialComboBox Data_ComboBox;
     }
